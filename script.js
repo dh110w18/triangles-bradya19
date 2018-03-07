@@ -30,5 +30,5 @@ var triangle = {
 };
 var message3= 'The area of a triangle with a base of ' + triangle.base + ' and a height of ' + triangle.height + ' is equal to ' + triangle.calcArea();
 var message4= 'The hypotenuse of a triangle with a base of ' + triangle.base + ' and a height of ' + triangle.height + ' is equal to ' + triangle.calcHypotenuse();
-document.getElementById("block3").innerHTML = 'The area of a triangle with a base of ' + triangle.base + ' and a height of ' + triangle.height + ' is equal to ' + triangle.calcArea() + '.'+ '\n' + message4;
+document.getElementById("block3").innerHTML = 'The area of a triangle with a base of ' + triangle.base + ' and a height of ' + triangle.height + ' is equal to ' + triangle.calcArea() + '.'+ '\n' + message4 + '.';
 triangle.drawIt();
