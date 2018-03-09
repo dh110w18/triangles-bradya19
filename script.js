@@ -48,7 +48,7 @@ if(userHeight <= 0){
 };
 var message5 = 'The area of a triangle with a base of ' + userBase + ' and a height of ' + userHeight + ' is equal to ' + triangle.calcArea();
 var message6= 'The hypotenuse of a triangle with a base of ' + userBase + ' and a height of ' + userHeight + ' is equal to ' + triangle.calcHypotenuse();
-document.getElementById("block4").innerHTML = 'The area of a triangle with a base of ' + userBase + ' and a height of ' + userHeight + ' is equal to ' + triangle.calcArea() + '.'+ '\n' + message6 + '.';
+document.getElementById("block4").innerHTML = 'The area of a triangle with a base of ' + userBase + ' and a height of ' + userHeight + ' is equal to ' + triangle.calcArea()+ '.'+ '\n' + message6 + '.';
 triangle.canvasId=canvas2;
 triangle.drawIt();
 
