@@ -54,10 +54,10 @@ triangle.drawIt();
 
 //Part 5: Lots of Triangles
 document.getElementById("block5").innerHTML = "Growing Triangles";
-for (var base=30; i<6; i++) {
+for (base=30; i<6; i++) {
     return triangle.base=triangle.base*i;
 };
-for (var height=20; i<6; i++){
+for (height=20; i<6; i++){
     return triangle.height=triangle.height*i;
 };
 triangle.canvasId=canvas3;
