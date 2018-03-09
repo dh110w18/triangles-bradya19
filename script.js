@@ -52,7 +52,7 @@ document.getElementById("block4").innerHTML = 'The area of a triangle with a bas
 triangle.canvasId=canvas2;
 triangle.drawIt();
 
-/*Part 5: Lots of Triangles
+//Part 5: Lots of Triangles
 document.getElementById("block5").innerHTML = "Growing Triangles";
 for (var i=1; i<6; i++) {
     return triangle.base=triangle.base*i;
@@ -60,4 +60,3 @@ for (var i=1; i<6; i++) {
 };
 triangle.canvasId=canvas3;
 triangle.drawIt(); 
-*/
