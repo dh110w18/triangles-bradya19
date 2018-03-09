@@ -58,7 +58,7 @@ for (var base=30; i<6; i++) {
     return triangle.base=triangle.base*i;
 };
 for (var height=20; i<6; i++){
-    return triangle.height=triangle.heightbase*i;
+    return triangle.height=triangle.height*i;
 };
 triangle.canvasId=canvas3;
 triangle.drawIt(); 
