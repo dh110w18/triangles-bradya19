@@ -59,6 +59,6 @@ triangle.height=20;
 for (i=0; i<6; i++) {
     triangle.base+=triangle.base*i;
     triangle.height+=triangle.height*i;
-    triangle.canvasId=canvas3;
-    triangle.drawIt(); 
 };
+triangle.canvasId=canvas3;
+triangle.drawIt(); 
