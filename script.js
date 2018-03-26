@@ -62,5 +62,3 @@ for (i=0; i<6; i++) {
     triangle.canvasId=canvas3;
     triangle.drawIt(); 
 };
-triangle.canvasId=canvas3;
-triangle.drawIt(); 
