@@ -56,11 +56,11 @@ triangle.drawIt();
 document.getElementById("block5").innerHTML = "Growing Triangles";
 triangle.base=30;
 triangle.height=20;
-for (i=1, i<6; i++) {
+for (i=0; i<6; i++) {
     triangle.base+=triangle.base*i;
-};
-for (i=1, i<6; i++){
     triangle.height+=triangle.height*i;
+    triangle.canvasId=canvas3;
+    triangle.drawIt(); 
 };
 triangle.canvasId=canvas3;
 triangle.drawIt(); 
