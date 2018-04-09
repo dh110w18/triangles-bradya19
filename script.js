@@ -49,16 +49,16 @@ if(userHeight <= 0){
 var message5 = 'The area of a triangle with a base of ' + userBase + ' and a height of ' + userHeight + ' is equal to ' + triangle.calcArea();
 var message6= 'The hypotenuse of a triangle with a base of ' + userBase + ' and a height of ' + userHeight + ' is equal to ' + triangle.calcHypotenuse();
 document.getElementById("block4").innerHTML = 'The area of a triangle with a base of ' + userBase + ' and a height of ' + userHeight + ' is equal to ' + triangle.calcArea() + '.'+ '\n' + message6;
-triangle.canvasId=canvas2;
+triangle.canvasId="canvas2";
 triangle.drawIt();
 
 //Part 5: Lots of Triangles
 document.getElementById("block5").innerHTML = "Growing Triangles";
 triangle.base=30;
 triangle.height=20;
-for (i=0; i<6; i++) {
+for (i=1; i<6; i++) {
     triangle.base+=triangle.base*i;
     triangle.height+=triangle.height*i;
 };
-triangle.canvasId=canvas3;
+triangle.canvasId="canvas3";
 triangle.drawIt(); 
