@@ -57,8 +57,8 @@ document.getElementById("block5").innerHTML = "Growing Triangles";
 triangle.base=30;
 triangle.height=20;
 for (var i=1; i<6; i++) {
-    triangle.base+=triangle.base*i;
-    triangle.height+=triangle.height*i;
+    triangle.base=30*i;
+    triangle.height=20*i;
     triangle.drawIt(); 
 };
 triangle.canvasId="canvas3";
