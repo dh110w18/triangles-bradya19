@@ -54,6 +54,7 @@ triangle.drawIt();
 
 //Part 5: Lots of Triangles
 document.getElementById("block5").innerHTML = "Growing Triangles";
+triangle.canvasId="canvas3";
 triangle.base=30;
 triangle.height=20;
 for (var i=1; i<6; i++) {
@@ -61,4 +62,3 @@ for (var i=1; i<6; i++) {
     triangle.height=20*i;
     triangle.drawIt(); 
 };
-triangle.canvasId="canvas3";
